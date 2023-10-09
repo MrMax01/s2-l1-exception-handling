@@ -23,6 +23,7 @@ public class Main {
                     index = Integer.parseInt(in.nextLine());
                     if (index == 0) {
                         flag=false;
+                        break;
                     } else {
                         index--;
                         randomArr[index] = numChoise;
